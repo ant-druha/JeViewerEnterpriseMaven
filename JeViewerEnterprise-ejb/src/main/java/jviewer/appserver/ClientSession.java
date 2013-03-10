@@ -35,7 +35,6 @@ public class ClientSession extends Thread {
     //region Session Data
     //TODO: here should be unique sessionID not the session count => wrong thread name <name>-<sessisonCount>
     private static int clientSessionsCount;
-
     private int sessionId;
     private int clientId;
     private Socket socket;

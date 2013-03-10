@@ -24,8 +24,6 @@ public class Client {
         this.last_name = last_name;
     }
 
-    
-
     public int getId() {
         return id;
     }
@@ -61,8 +59,4 @@ public class Client {
     public void setLast_name(String last_name) {
         this.last_name = last_name;
     }
-
-    
-    
-    
 }
