@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="JeViewerEnterprise-war:war exploded">
+    <output-path>$PROJECT_DIR$/JeViewerEnterprise-war/target/web</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="JeViewerEnterprise-war/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="JeViewerEnterprise-war" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.glassfish.main.extras:glassfish-embedded-all:3.1.2.2" />
+          <element id="archive" name="JeViewerEnterpriseRemoteMod-0.1.jar">
+            <element id="module-output" name="JeViewerEnterpriseRemoteMod" />
+          </element>
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ejb-jar" name="JeViewerEnterprise-ejb:ejb">
+    <output-path>$PROJECT_DIR$/JeViewerEnterprise-ejb/target</output-path>
+    <root id="archive" name="JeViewerEnterprise-ejb-0.1.jar">
+      <element id="artifact" artifact-name="JeViewerEnterprise-ejb:ejb exploded" />
+    </root>
+  </artifact>
+</component>

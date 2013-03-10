@@ -13,9 +13,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="JeViewerEnterprise-ejb" />
     <orderEntry type="module" module-name="JeViewerEnterpriseRemoteMod" />
-    <orderEntry type="library" name="Maven: org.glassfish:javax.ejb:3.2-b06" level="project" />
-    <orderEntry type="library" name="Maven: org.glassfish:javax.transaction:3.2-b06" level="project" />
-    <orderEntry type="library" name="Maven: org.glassfish:javax.annotation:3.2-b06" level="project" />
     <orderEntry type="library" name="Maven: org.glassfish.main.extras:glassfish-embedded-all:3.1.2.2" level="project" />
     <orderEntry type="library" name="Maven: com.oracle:ojdbc6:11.2.0.3" level="project" />
   </component>

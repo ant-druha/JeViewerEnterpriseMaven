@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ejb-jar" name="JeViewerEnterpriseRemoteMod:ejb">
+    <output-path>$PROJECT_DIR$/JeViewerEnterpriseRemoteMod/target</output-path>
+    <root id="archive" name="JeViewerEnterpriseRemoteMod-0.1.jar">
+      <element id="artifact" artifact-name="JeViewerEnterpriseRemoteMod:ejb exploded" />
+    </root>
+  </artifact>
+</component>

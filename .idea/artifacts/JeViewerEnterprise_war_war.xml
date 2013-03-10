@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="JeViewerEnterprise-war:war">
+    <output-path>$PROJECT_DIR$/JeViewerEnterprise-war/target</output-path>
+    <root id="archive" name="web.war">
+      <element id="artifact" artifact-name="JeViewerEnterprise-war:war exploded" />
+    </root>
+  </artifact>
+</component>

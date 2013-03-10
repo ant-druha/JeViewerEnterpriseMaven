@@ -10,13 +10,16 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>JeViewerEnterprise-ejb</artifactId>
+    <packaging>ejb</packaging>
     <version>0.1</version>
+    <name>JeViewerEnterprise-ejb</name>
 
     <dependencies>
         <dependency>
             <groupId>JeViewerEnterpriseMaven</groupId>
             <artifactId>JeViewerEnterpriseRemoteMod</artifactId>
             <version>0.1</version>
+            <type>ejb</type>
         </dependency>
         <dependency>
             <groupId>org.glassfish.main.extras</groupId>
@@ -27,6 +30,7 @@
             <groupId>org.glassfish</groupId>
             <artifactId>javax.ejb</artifactId>
             <version>3.2-b06</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
     <build>
@@ -44,6 +48,7 @@
                     <user>${glassfish.user}</user>
                     <passwordFile>${passwordFile}</passwordFile>
                     <!--<adminPassword>${glassfish.adminPassword}</adminPassword>-->
+                    <!--<adminPassword>admin</adminPassword>-->
                     <domain>
                         <name>${glassfish.domain.name}</name>
                         <host>${glassfish.domain.host}</host>
@@ -68,7 +73,12 @@
                 <artifactId>maven-ejb-plugin</artifactId>
                 <version>2.3</version>
                 <configuration>
-                    <ejbVersion>3.0</ejbVersion>
+                    <ejbVersion>3.1</ejbVersion>
+                    <archive>
+                        <manifest>
+                            <addClasspath>true</addClasspath>
+                        </manifest>
+                    </archive>
                 </configuration>
             </plugin>
 
