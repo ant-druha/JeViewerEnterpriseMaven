@@ -1,0 +1,6 @@
+jviewer/util/persistence/JDBCUtils.class
+jviewer/util/persistence/ClientDBBroker.class
+jviewer/util/persistence/ClientBroker.class
+jviewer/controller/ClientBaseInterface.class
+jviewer/dbserver/JeViewerDBServer.class
+jviewer/dbserver/PersistentHistoryServant.class
