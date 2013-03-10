@@ -2,149 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0e4faf8-0837-4bfa-968b-2e20b2dcc994" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/ant.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_oracle_ojdbc6_11_2_0_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_javax_annotation_3_2_b06.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_javax_ejb_3_2_b06.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_javax_transaction_3_2_b06.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_main_extras_glassfish_embedded_all_3_1_2_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerDBServer/JeViewerDBServer.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerDBServer/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerDBServer/src/main/java/jviewer/controller/ClientBaseInterface.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerDBServer/src/main/java/jviewer/dbserver/JeViewerDBServer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerDBServer/src/main/java/jviewer/dbserver/PersistentHistoryServant.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerDBServer/src/main/java/jviewer/util/persistence/ClientBroker.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerDBServer/src/main/java/jviewer/util/persistence/ClientDBBroker.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerDBServer/src/main/java/jviewer/util/persistence/JDBCUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerDBServer/target/classes/jviewer/controller/ClientBaseInterface.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerDBServer/target/classes/jviewer/dbserver/JeViewerDBServer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerDBServer/target/classes/jviewer/dbserver/PersistentHistoryServant.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerDBServer/target/classes/jviewer/util/persistence/ClientBroker.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerDBServer/target/classes/jviewer/util/persistence/ClientDBBroker.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerDBServer/target/classes/jviewer/util/persistence/JDBCUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerDBServer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterprise-ejb/JeViewerEnterprise-ejb.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterprise-ejb/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterprise-ejb/src/main/java/jviewer/appserver/ClientSession.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterprise-ejb/src/main/java/jviewer/appserver/ServerConnectionListener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterprise-ejb/src/main/java/jviewer/appserver/ServerDataReader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterprise-ejb/src/main/java/jviewer/ejb/Application.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterprise-ejb/src/main/java/jviewer/ejb/ApplicationLocal.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterprise-ejb/src/main/java/jviewer/objectdomain/Client.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterprise-ejb/src/main/java/jviewer/objectdomain/eClientInfo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterprise-ejb/src/main/java/jviewer/util/ClientItemsMap.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterprise-ejb/src/main/java/jviewer/util/Holder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterprise-ejb/src/main/java/jviewer/util/logging/Logging.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterprise-ejb/src/main/java/jviewer/util/net/ConnectionListener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterprise-ejb/src/main/java/jviewer/util/net/SocketDataReaderThread.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterprise-ejb/src/main/java/jviewer/util/utils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterprise-ejb/target/classes/jviewer/appserver/ClientSession.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterprise-ejb/target/classes/jviewer/appserver/ServerConnectionListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterprise-ejb/target/classes/jviewer/appserver/ServerDataReader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterprise-ejb/target/classes/jviewer/ejb/Application.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterprise-ejb/target/classes/jviewer/ejb/ApplicationLocal.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterprise-ejb/target/classes/jviewer/objectdomain/Client.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterprise-ejb/target/classes/jviewer/objectdomain/eClientInfo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterprise-ejb/target/classes/jviewer/util/ClientItemsMap.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterprise-ejb/target/classes/jviewer/util/Holder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterprise-ejb/target/classes/jviewer/util/logging/Logging.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterprise-ejb/target/classes/jviewer/util/net/ConnectionListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterprise-ejb/target/classes/jviewer/util/net/SocketDataReaderThread.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterprise-ejb/target/classes/jviewer/util/utils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterprise-ejb/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterprise-war/JeViewerEnterprise-war.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterprise-war/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterprise-war/src/main/java/jviewer/web/Director.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterprise-war/src/main/resources/web/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterprise-war/src/main/resources/web/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterprise-war/src/main/resources/web/index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterprise-war/target/classes/jviewer/web/Director.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterprise-war/target/classes/web/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterprise-war/target/classes/web/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterprise-war/target/classes/web/index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterprise-war/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterpriseMaven.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterpriseRemoteMod/JeViewerEnterpriseRemoteMod.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterpriseRemoteMod/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterpriseRemoteMod/src/main/java/ControllerHistory.idl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterpriseRemoteMod/src/main/java/jviewer/controller/orbHistory/History.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterpriseRemoteMod/src/main/java/jviewer/controller/orbHistory/HistoryExtended.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterpriseRemoteMod/src/main/java/jviewer/controller/orbHistory/HistoryExtendedHelper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterpriseRemoteMod/src/main/java/jviewer/controller/orbHistory/HistoryExtendedHolder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterpriseRemoteMod/src/main/java/jviewer/controller/orbHistory/HistoryExtendedOperations.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterpriseRemoteMod/src/main/java/jviewer/controller/orbHistory/HistoryExtendedPOA.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterpriseRemoteMod/src/main/java/jviewer/controller/orbHistory/HistoryExtendedPackage/ClientInfoHelper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterpriseRemoteMod/src/main/java/jviewer/controller/orbHistory/HistoryExtendedPackage/ClientInfoHolder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterpriseRemoteMod/src/main/java/jviewer/controller/orbHistory/HistoryHelper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterpriseRemoteMod/src/main/java/jviewer/controller/orbHistory/HistoryHolder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterpriseRemoteMod/src/main/java/jviewer/controller/orbHistory/HistoryOperations.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterpriseRemoteMod/src/main/java/jviewer/controller/orbHistory/HistoryPOA.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterpriseRemoteMod/src/main/java/jviewer/controller/orbHistory/HistoryPackage/historyHelper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterpriseRemoteMod/src/main/java/jviewer/controller/orbHistory/HistoryPackage/historyHolder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterpriseRemoteMod/src/main/java/jviewer/controller/orbHistory/_HistoryExtendedStub.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterpriseRemoteMod/src/main/java/jviewer/controller/orbHistory/_HistoryStub.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterpriseRemoteMod/src/main/java/jviewer/ejb/ApplicationRemote.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterpriseRemoteMod/src/main/java/jviewer/util/config/ConfigProperties.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterpriseRemoteMod/target/classes/jviewer/controller/orbHistory/History.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterpriseRemoteMod/target/classes/jviewer/controller/orbHistory/HistoryExtended.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterpriseRemoteMod/target/classes/jviewer/controller/orbHistory/HistoryExtendedHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterpriseRemoteMod/target/classes/jviewer/controller/orbHistory/HistoryExtendedHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterpriseRemoteMod/target/classes/jviewer/controller/orbHistory/HistoryExtendedOperations.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterpriseRemoteMod/target/classes/jviewer/controller/orbHistory/HistoryExtendedPOA.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterpriseRemoteMod/target/classes/jviewer/controller/orbHistory/HistoryExtendedPackage/ClientInfoHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterpriseRemoteMod/target/classes/jviewer/controller/orbHistory/HistoryExtendedPackage/ClientInfoHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterpriseRemoteMod/target/classes/jviewer/controller/orbHistory/HistoryHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterpriseRemoteMod/target/classes/jviewer/controller/orbHistory/HistoryHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterpriseRemoteMod/target/classes/jviewer/controller/orbHistory/HistoryOperations.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterpriseRemoteMod/target/classes/jviewer/controller/orbHistory/HistoryPOA.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterpriseRemoteMod/target/classes/jviewer/controller/orbHistory/HistoryPackage/historyHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterpriseRemoteMod/target/classes/jviewer/controller/orbHistory/HistoryPackage/historyHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterpriseRemoteMod/target/classes/jviewer/controller/orbHistory/_HistoryExtendedStub.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterpriseRemoteMod/target/classes/jviewer/controller/orbHistory/_HistoryStub.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterpriseRemoteMod/target/classes/jviewer/ejb/ApplicationRemote.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterpriseRemoteMod/target/classes/jviewer/util/config/ConfigProperties.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterpriseRemoteMod/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViewerEnterpriseRemoteMod/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViwerClient/JeViwerClient.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViwerClient/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViwerClient/src/main/java/jviewer/controller/ClientFormListener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViwerClient/src/main/java/jviewer/controller/test.my" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViwerClient/src/main/java/jviewer/jeviwerclient/JeViwerClient.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViwerClient/src/main/java/jviewer/jeviwerclient/gui/ClientDesignForm.form" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViwerClient/src/main/java/jviewer/jeviwerclient/gui/ClientDesignForm.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViwerClient/src/main/java/jviewer/jeviwerclient/gui/ClientForm.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViwerClient/target/classes/jviewer/controller/ClientFormListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViwerClient/target/classes/jviewer/jeviwerclient/JeViwerClient.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViwerClient/target/classes/jviewer/jeviwerclient/gui/ClientDesignForm$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViwerClient/target/classes/jviewer/jeviwerclient/gui/ClientDesignForm.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViwerClient/target/classes/jviewer/jeviwerclient/gui/ClientForm.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JeViwerClient/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pom.xml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
     </list>
     <ignored path="JeViewerEnterpriseMaven.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/pom.xml" changelist="e0e4faf8-0837-4bfa-968b-2e20b2dcc994" time="1362865396758" ignored="false" />
-    <file path="/Dummy.txt" changelist="e0e4faf8-0837-4bfa-968b-2e20b2dcc994" time="1362913642218" ignored="false" />
+    <file path="/Dummy.txt" changelist="e0e4faf8-0837-4bfa-968b-2e20b2dcc994" time="1362914846272" ignored="false" />
     <file path="/index.jsp" changelist="e0e4faf8-0837-4bfa-968b-2e20b2dcc994" time="1362865181693" ignored="false" />
     <file path="/ConfigProperties.java" changelist="e0e4faf8-0837-4bfa-968b-2e20b2dcc994" time="1362865932339" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="e0e4faf8-0837-4bfa-968b-2e20b2dcc994" time="1362914109228" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="true" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -488,6 +361,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JeViewerEnterpriseMaven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JeViewerEnterpriseMaven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -501,7 +388,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="settings.github" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Ignored.Files" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/JeViewerDBServer/target" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
