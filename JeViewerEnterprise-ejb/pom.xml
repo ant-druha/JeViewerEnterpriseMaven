@@ -34,17 +34,25 @@
             <plugin>
                 <groupId>org.glassfish.maven.plugin</groupId>
                 <artifactId>maven-glassfish-plugin</artifactId>
+                <version>2.1</version>
                 <configuration>
                     <terse>false</terse>
                     <echo>true</echo>
                     <debug>true</debug>
+
                     <glassfishDirectory>${glassfish.glassfishDirectory}</glassfishDirectory>
                     <user>${glassfish.user}</user>
-                    <adminPassword>${glassfish.adminPassword}</adminPassword>
+                    <passwordFile>${passwordFile}</passwordFile>
+                    <!--<adminPassword>${glassfish.adminPassword}</adminPassword>-->
                     <domain>
                         <name>${glassfish.domain.name}</name>
                         <host>${glassfish.domain.host}</host>
                         <adminPort>${glassfish.domain.adminPort}</adminPort>
+                        <httpPort>${httpPort}</httpPort>
+                        <httpsPort>${httpsPort}</httpsPort>
+                        <iiopPort>${iiopPort}</iiopPort>
+                        <jmsPort>${jmsPort}</jmsPort>
+                        <reuse>${reuse}</reuse>
                     </domain>
                     <components>
                         <component>
