@@ -10,6 +10,7 @@ mvn org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file \
                          -DgroupId=JeViewerEnterpriseMaven \
                          -DartifactId=JeViewerEnterpriseRemoteMod -Dversion=0.1 \
                          -Dpackaging=ejb \
+                         -DcreateChecksum=true \
                          -DlocalRepositoryPath=/Users/andrey/Documents/IdeaProjects/Java/MyProjects/JeViewerEnterpriseMaven/JeViewerEnterprise-ejb/my-repo
 
 http://stackoverflow.com/questions/2229757/maven-add-a-dependency-to-a-jar-by-relative-path
