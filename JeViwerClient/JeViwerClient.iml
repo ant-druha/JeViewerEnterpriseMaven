@@ -12,6 +12,8 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="JeViewerEnterprise-ejb" />
+    <orderEntry type="module" module-name="JeViewerEnterpriseRemoteMod" />
+    <orderEntry type="library" name="Maven: org.glassfish.main.extras:glassfish-embedded-all:3.1.2.2" level="project" />
   </component>
 </module>
 

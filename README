@@ -1,1 +1,17 @@
 This file was created by IntelliJ IDEA 12.0.4 for binding GitHub repository
+
+HOW TOs
+
+-----
+- installing file into local repository (for local dependencies):
+
+mvn org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file \
+                         -Dfile=/Users/andrey/Documents/IdeaProjects/Java/MyProjects/JeViewerEnterpriseMaven/JeViewerEnterpriseRemoteMod/target/JeViewerEnterpriseRemoteMod-0.1.jar \
+                         -DgroupId=JeViewerEnterpriseMaven \
+                         -DartifactId=JeViewerEnterpriseRemoteMod -Dversion=0.1 \
+                         -Dpackaging=ejb \
+                         -DlocalRepositoryPath=/Users/andrey/Documents/IdeaProjects/Java/MyProjects/JeViewerEnterpriseMaven/JeViewerEnterprise-ejb/my-repo
+
+http://stackoverflow.com/questions/2229757/maven-add-a-dependency-to-a-jar-by-relative-path
+
+-----
