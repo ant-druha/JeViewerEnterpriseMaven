@@ -27,3 +27,13 @@ mvn install:install-file -Dfile=C:\Users\Andrey\IdeaProjects\Java\MyProjects\JeV
 http://stackoverflow.com/questions/2229757/maven-add-a-dependency-to-a-jar-by-relative-path
 
 -----
+
+single jar from multiply modules (but how asseble ejb bean?):
+maven-assembly-plugin - http://stackoverflow.com/questions/7582564/build-executable-jar-from-multiple-maven-modules
+
+ejb-plugin:
+http://maven.apache.org/plugins/maven-ejb-plugin/
+
+archiver:
+http://maven.apache.org/shared/maven-archiver/index.html
+
