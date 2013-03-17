@@ -3,8 +3,8 @@ This file was created by IntelliJ IDEA 12.0.4 for binding GitHub repository
 HOW TOs
 
 -----
-- installing file into local repository (for local dependencies):
-
+- installing file into _custom_ local repository (for local dependencies):
+unix=>
 mvn org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file \
                          -Dfile=/Users/andrey/Documents/IdeaProjects/Java/MyProjects/JeViewerEnterpriseMaven/JeViewerEnterpriseRemoteMod/target/JeViewerEnterpriseRemoteMod-0.1.jar \
                          -DgroupId=JeViewerEnterpriseMaven \
@@ -12,6 +12,17 @@ mvn org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file \
                          -Dpackaging=ejb \
                          -DcreateChecksum=true \
                          -DlocalRepositoryPath=/Users/andrey/Documents/IdeaProjects/Java/MyProjects/JeViewerEnterpriseMaven/JeViewerEnterprise-ejb/my-repo
+<=unix
+
+windows=>
+mvn org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file -Dfile=C:\Users\Andrey\IdeaProjects\Java\MyProjects\JeViewerEnterpriseMaven\JeViewerEnterprise-ejb\target\JeViewerEnterpriseRemoteMod-0.1.jar -DgroupId=JeViewerEnterpriseMaven -DartifactId=JeViewerEnterpriseRemoteMod -Dversion=0.1 -Dpackaging=ejb -DcreateChecksum=true  -DlocalRepositoryPath=C:\Users\Andrey\IdeaProjects\Java\MyProjects\JeViewerEnterpriseMaven\JeViewerEnterprise-ejb\my-repo
+<=windows
+
+install file(jdbc driver) into local repo:
+
+windows=>
+mvn install:install-file -Dfile=C:\Users\Andrey\IdeaProjects\Java\MyProjects\JeViewerEnterprise_v.1.0\libs\ojdbc6.jar -DgroupId=com.oracle -DartifactId=ojdbc6 -Dversion=11.2.0.3 -Dpackaging=jar
+<=windows
 
 http://stackoverflow.com/questions/2229757/maven-add-a-dependency-to-a-jar-by-relative-path
 

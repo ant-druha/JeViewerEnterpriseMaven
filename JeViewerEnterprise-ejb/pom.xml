@@ -27,7 +27,7 @@
             <groupId>JeViewerEnterpriseMaven</groupId>
             <artifactId>JeViewerEnterpriseRemoteMod</artifactId>
             <version>0.1</version>
-            <type>ejb-client</type>
+            <type>ejb</type>
         </dependency>
         <dependency>
             <groupId>org.glassfish.main.extras</groupId>
