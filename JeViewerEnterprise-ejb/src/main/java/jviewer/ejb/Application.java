@@ -74,7 +74,10 @@ public class Application implements ApplicationRemote, ApplicationLocal {
                 log.error("Exception while closing file" + ex.getMessage());
             }
         }
+
     }
+
+
 
     @Override
     public Properties getConfigProperties() {
