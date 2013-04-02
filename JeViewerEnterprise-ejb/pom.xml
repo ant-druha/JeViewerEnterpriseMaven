@@ -28,6 +28,7 @@
             <artifactId>JeViewerEnterpriseRemoteMod</artifactId>
             <version>0.1</version>
             <type>ejb</type>
+            <!--<scope>runtime</scope>-->
         </dependency>
         <dependency>
             <groupId>org.glassfish.main.extras</groupId>

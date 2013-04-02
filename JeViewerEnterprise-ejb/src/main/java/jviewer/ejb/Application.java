@@ -32,6 +32,8 @@ import java.util.Vector;
  * @author Andrey
  */
 
+
+
 @Singleton
 public class Application implements ApplicationRemote, ApplicationLocal {
 
@@ -45,6 +47,9 @@ public class Application implements ApplicationRemote, ApplicationLocal {
 
     private void loadProperties() {
 
+//        "hedafs".substring(2);
+        "ds".compareTo("dd");
+
         FileReader fr = null;
         try {
             Properties props = new Properties();
@@ -57,6 +62,8 @@ public class Application implements ApplicationRemote, ApplicationLocal {
             File proprsFile = f1.exists() ? f1 : f3.exists()? f3 : f2;
 
             fr = new FileReader(proprsFile);
+
+            //fr.close();
 
             props.load(fr);
 

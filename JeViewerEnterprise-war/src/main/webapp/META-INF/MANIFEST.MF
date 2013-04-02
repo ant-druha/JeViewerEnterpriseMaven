@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Class-Path: glassfish-embedded-all-3.1.2.2.jar JeViewerEnterpriseRemot
+ eMod-0.1.jar
+
