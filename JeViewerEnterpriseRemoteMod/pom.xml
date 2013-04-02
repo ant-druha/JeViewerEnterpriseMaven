@@ -15,13 +15,13 @@
     <version>0.1</version>
     <name>JeViewerEnterpriseRemoteMod</name>
 
-
     <dependencies>
         <dependency>
             <groupId>org.glassfish</groupId>
             <artifactId>javax.ejb</artifactId>
             <version>3.2-b06</version>
             <scope>provided</scope>
+
         </dependency>
         <dependency>
             <groupId>org.glassfish.main.extras</groupId>
